@@ -16,7 +16,7 @@ def read_root():
 def generate_image(request: GenerateRequest):
     payload = {
         "prompt": request.prompt,
-        "style": request.style,
+        "n_prompt": request.n_prompt,
     }
 
     try:
