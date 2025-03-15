@@ -1,0 +1,14 @@
+version: '3.9'
+
+services:
+  backend:
+    build: .
+    ports:
+      - "8000:8000"
+    depends_on:
+      - neural-net
+
+  neural-net:
+    image: your-neural-net-image
+    ports:
+      - "8001:8001"
