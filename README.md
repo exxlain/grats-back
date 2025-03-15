@@ -63,11 +63,4 @@ API endpoints are auto-documented with Swagger at:
 - **FastAPI** for REST API
 - **Docker Compose** for service orchestration
 
-## 📝 Next Steps
-- Integrate user authentication
-- Implement token-based payments and transactions
-- Deploy to cloud provider (AWS, DigitalOcean, etc.)
-
----
-
-© 2025 Your Project Name. All rights reserved.
+© 2025 Grats Back. All rights reserved.
