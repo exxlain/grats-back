@@ -45,6 +45,24 @@ Access Swagger documentation at:
 
 - [http://localhost:8000/docs](http://localhost:8000/docs)
 
+### Make commands:
+Builds the Docker image
+```bash
+make build
+```
+Automatically builds and starts the container
+```bash
+make run
+```
+Stops and removes the running container
+```bash
+make stop
+```
+Stops the container (if running) and starts it again.
+```bash
+make restart
+```
+
 ### Docker Compose
 
 To run backend with neural network container:
